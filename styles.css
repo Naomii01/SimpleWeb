@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+ font-family: Arial Black, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.navbar a:visited {
+    color: blue; 
+}
+
+.navbar a:active {
+    border-bottom: 2px solid purple; 
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+}
